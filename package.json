@@ -1,8 +1,9 @@
 {
   "name": "query-params",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get and set query params",
-  "main": "index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
