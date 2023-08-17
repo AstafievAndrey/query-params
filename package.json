@@ -1,5 +1,5 @@
 {
-  "name": "query-params",
+  "name": "query-params-util",
   "version": "1.0.1",
   "description": "get and set query params",
   "main": "./index.js",
