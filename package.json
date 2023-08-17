@@ -1,0 +1,25 @@
+{
+  "name": "query-params",
+  "version": "1.0.0",
+  "description": "get and set query params",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstafievAndrey/query-params.git"
+  },
+  "keywords": [
+    "query",
+    "get",
+    "set",
+    "params"
+  ],
+  "author": "Astafiev Andrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstafievAndrey/query-params/issues"
+  },
+  "homepage": "https://github.com/AstafievAndrey/query-params#readme"
+}
