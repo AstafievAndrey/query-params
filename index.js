@@ -3,7 +3,7 @@
  * @param str
  * @returns object
  */
-export function getQueryParams(str) {
+function getQueryParams(str) {
   if (!window.location.search.length) return {};
 
   const search = str ? str : window.location.search.slice(1);
@@ -36,7 +36,7 @@ export function getQueryParams(str) {
     });
 }
 
-export function setQueryParams(params, withOutOld) {
+function setQueryParams(params, withOutOld) {
   const oldParams = getQueryParams();
   const search = getQueryParamsFromObject({
     ...(withOutOld ? {} : oldParams),
@@ -46,7 +46,7 @@ export function setQueryParams(params, withOutOld) {
   window.history.pushState({ path: refresh }, "", refresh);
 }
 
-export function getQueryParamsFromObject(params) {
+function getQueryParamsFromObject(params) {
   const search = Object.entries(params)
     .map((param) => {
       if (param.includes(undefined)) {
@@ -67,3 +67,8 @@ export function getQueryParamsFromObject(params) {
     .join("&");
   return search;
 }
+module.exports = {
+  getQueryParams,
+  setQueryParams,
+  getQueryParamsFromObject,
+};
