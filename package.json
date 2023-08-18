@@ -1,6 +1,6 @@
 {
   "name": "query-params-util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "get and set query params",
   "main": "./index.js",
   "types": "./index.d.ts",
