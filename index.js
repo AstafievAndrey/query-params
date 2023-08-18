@@ -33,7 +33,7 @@ function getQueryParams(str) {
       }
 
       return prev;
-    });
+    }, {});
 }
 
 function setQueryParams(params, withOutOld) {
